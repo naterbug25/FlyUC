@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+   <html lang="en">
+      <head>
+         <title>FlyUC: Home</title>
+         <link rel="icon" href="https://naterbug25.github.io/FlyUC/Images/Icon.ico" type="image/gif" sizes="16x16">
+         <!-- DC Social Icons CSS -->
+         <meta charset="utf-8">
+         <meta name="description" content="Nathan Huber Home">
+         <meta name="keywords" content="UC, CO-OP, COOP, University Cincinnati, Fly, Fly Cincinnati, Nathan, Nathan Huber">
+         <meta name="author" content="Nathan Huber, Nate Huber">
+         <!--  <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+
+         <script>
+            <meta name="msvalidate.01" content="599B9D1AC3BDA66360867045D4CFF3AB" />
+         </script>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>    
+         <script type="text/javascript">
+            <!--
+            if (screen.width <= 800) {
+               
+              $(document).ready(function(){
+                  $("h1").addClass("HeaderMobile");
+                  $(".intro").addClass("introMobile");
+                  $(".HomeImg").addClass("HomeImgMobile");
+                  $("p").removeClass("intro");
+                  $(".HomeImg").removeClass("HomeImg");  
+              });
+                                     }
+            //-->
+         </script>
+         <!-- Latest compiled and minified CSS -->
+         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+         <!-- jQuery library -->
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+         <!-- Latest compiled JavaScript -->
+         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+         <link rel="stylesheet" type="text/css" href="jsfiddle.css">
+         <link rel="stylesheet" type="text/css" href="Style/globaltemplate.css">
+         <link rel="stylesheet" type="text/css" href="http://www.dreamtemplate.com/dreamcodes/social_icons/tsc_social_icons.css" />
+
+         <script type="text/javascript">
+            <!--
+            if (screen.width <= 800) {              // Mobile Device
+              $(document).ready(function(){
+                  $("h1").addClass("HeaderMobile");             //Resize Titles
+                  $(".intro").addClass("introMobile");           // Adjust words
+                  $(".HomeImg").addClass("HomeImgMobile");      //Display Home Image Icon
+                  $(".MobileMenu").addClass("MobileMenuMobile");   // Mobile Menu
+                  $(".ButtonHeader").addClass("RemoveButtons");          //Remove Header Buttons
+                 // $document.getElementById('HeaderButtons').className += 'RemoveButtons';
+                 // $(".MobileBanner").addClass("MobileHeaderDisplay");// Display header banner
+                  $("p").removeClass("intro");                        // Adjust words
+                  $(".HomeImg").removeClass("HomeImg"); 
+                  $(".MobileMenu").removeClass("MobileMenu");  
+                  $(".ButtonHeader").removeClass("ButtonHeader");  
+                  
+              });
+            
+                                     }
+            //-->
+         </script>
+         <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function DropDownMenu() {
+                document.getElementById("myDropdown").classList.toggle("show");
+                var x = document.getElementById('MobileIcon');
+                x.classList.toggle("MobileMenuMobileRotate");
+            }
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(event) {
+              if (!event.target.matches('.MobileMenuMobile')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                  var openDropdown = dropdowns[i];
+                  if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                  var x = document.getElementById('MobileIcon');
+                  x.classList.toggle("MobileMenuMobileRotate");
+                  }
+                }
+              }
+            }
+         </script>
+      </head>
+      <body>
+         <div class="HeaderContainer" >
+            <img src="http://naterbug25.github.io/NateHuber/Images/Header2.PNG" alt="Header Image" align="middle" style="width: 100%; max-width: 100%; z-index: 1;" >
+            <div class="dropdown">
+               <img class="MobileMenu" src="http://naterbug25.github.io/NateHuber/Images/Menu_Drop_Down_Button.jpg" alt="Error Image Not Found" tabindex="1" onclick="DropDownMenu()" id="MobileIcon" >
+               <div id="myDropdown" class="dropdown-content">
+                  <a href="https://naterbug25.github.io/FlyUC/Home">Home</a>
+                  <a href="https://naterbug25.github.io/FlyUC/About_Us">About Us</a>
+
+               </div>
+            </div>
+         </div>
+         <!-- Header Buttons-->
+         <div>
+            <header>
+               <!--  <div class="MobileHeader">
+                  </div>-->
+               <div class="ButtonHeader">
+                  <a href="hhttps://naterbug25.github.io/FlyUC/Home" target="" </a><button class="launch" style="color:#ffd966;">Home</button></a>
+                  <a href="https://naterbug25.github.io/FlyUC/About_Us" target=""</a> <button class="launch" style="color:#e6e6e6;">About Us</button></a>
+                  <br>
+               </div>
+            </header>
+         </div>
+         <div id="container">
+            <br>
+            <div  id="left"> </div>
+            <!-- Empty  Space-->
+            <div  id="right"></div>
+            <!-- Empty Space-->
+		 <div  id="center" >
+            <img class ="HomeImg" src="https://naterbug25.github.io/FlyUC/Images/Home.jpg" alt="Well that wasn't supposed to happen..." >	
+            <a href="https://www.instagram.com/flyuc/?hl=en" target="_blank" style=color:black > 
+               <h1>FlyUC: University of Cincinnati</h1>
+            </a>
+               <iframe class ="home_page" src="https://docs.google.com/document/d/e/2PACX-1vR3oH3F2SKdqBIYgp_UF4lAV-otEJZ0T9YMgUzDpyP1WH-rhDxU2aC-rSsBqGZKA7N3FP6AtYIibBiN/pub?embedded=true" allowtransparency="true" scrolling="no" ></iframe>
+               <br><br>
+         </div>
+		 </div>
+         <div id="footer">    
+             Copyright &copy 2019 Nathan Huber 
+            <a class="linkedin_square32 tsc_social_square32" title="linkedin" target="_blank" href="https://www.linkedin.com/in/hubernathan">Linkedin</a>
+            <a class="facebook_square32 tsc_social_square32" title="facebook" target="_blank" href="https://www.facebook.com/nathan.huber.7">Facebook</a>
+            <a class="github_square32 tsc_social_square32" title="facebook" target="_blank" href="https://github.com/naterbug25">Facebook</a>
+         </div>
+      </body>
+   </html>
