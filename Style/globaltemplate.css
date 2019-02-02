@@ -1,0 +1,350 @@
+html,body  {
+background-color: #b7b7b7;
+overflow-x: hidden; 
+height: 100%;
+}
+#left {
+	float: left;
+	width: 20%;
+}
+
+#center {
+	margin: auto;
+	width: 60%;
+}
+
+#right {
+	float: right;
+	width: 20%;
+}
+
+/* Home page content */
+iframe.home_page {
+	display: inline-block;
+	overflow: hidden;
+	width: 50%;
+	height: 50vh;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3vh;
+	border:none;
+}
+
+/* About page content */
+iframe.about_page {
+	display: block;
+	overflow: hidden;
+	width: 90%;
+	height: 100vh;
+    margin-top: 1vh;
+    margin-right: 5%;
+    margin-bottom: 1vh;
+    margin-left: 5%;
+	border:none;
+
+}
+iframe.about_page {
+	display: block;
+	overflow: hidden;
+	width: 90%;
+	height: 75vh;
+    margin-top: 1vh;
+    margin-right: 5%;
+    margin-bottom: 0;
+    margin-left: 5%;
+	border:none;
+
+}
+/*About Me College image */
+img.About_Me
+{
+	display: inline-block;
+	overflow: hidden;
+	width: 75%; 
+    margin-top: 5vh;
+	margin-left: auto;
+	margin-right: 20vh;
+}
+
+h2.About_Me
+{
+text-align: middle;
+font-size: 2.4vh;
+font-weight: bold;
+width: 75%; 
+border: 1px ;
+margin: 1px;
+padding: 1px;
+overflow: auto;
+margin-left: auto;
+margin-right:  15vh;
+}
+
+
+img.HomeImg
+{
+  margin: 1px;
+  padding: 1px;	
+  margin-left: auto;
+  margin-right: auto;
+  width:25%;
+  height:25%;"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+font-size: 2.4vh;
+text-align: center;
+font-weight: bold;	
+border: 1px ;
+margin: 1px;
+padding: 1px;	
+margin-left: auto;
+margin-right: auto;	
+}
+h1.HeaderMobile {
+font-size: 2.4vh;
+text-align: center;
+font-weight: bold;	
+border: 1px ;
+margin: 1px;
+padding: 1px;	
+margin-left: auto;
+margin-right: auto;	
+width: 95%; 
+}
+h2 {
+text-align: middle;
+font-size: 2.4vh;
+font-weight: bold;
+width: 75%; 
+border: 1px ;
+margin: 1px;
+padding: 1px;
+overflow: auto;
+margin-left: auto;
+margin-right: auto;
+}
+h3 {
+text-align: left;
+font-size: 2.4vh;
+font-weight: bold;
+border: 1px ;
+text-align:left; 
+margin: 1px;
+padding: 1px;
+width: 75%; 
+height: 25%;
+overflow: auto;
+margin-left: auto;
+margin-right: auto;
+}
+h4 {
+text-align: left;
+font-size: 2.4vh;
+font-weight: bold;
+}
+
+
+
+p.COOP {
+font-size: 1.8vh;
+border: 1px ;
+text-align:left; 
+margin: 1px;
+padding: 1px;
+width: 50%; 
+height: 25%;
+overflow: auto;
+margin-left: auto;
+margin-right: auto;
+}
+p.COOPMobile {
+font-size: 1.8vh;
+border: 1px ;
+text-align:left; 
+margin: 1px;
+padding: 1px;
+width: 60%; 
+overflow: auto;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+img.HomeImgMobile
+{
+  margin: 1px;
+  padding: 1px;	
+  margin-left: auto;
+  margin-right: auto;
+  width:40%;
+  height:40%;"
+}
+img.CoopImg
+{
+  margin: 15px;
+  padding: 1px;	
+  margin-left: auto;
+  margin-right: auto;
+  width:25%;
+  height:25%;
+}
+img.CoopImgMobile
+{
+  margin: 1px;
+  padding: 1px;	
+  margin-left: auto;
+  margin-right: auto;
+  width:25%;
+  height:25%;
+}
+img.MobileMenuMobile
+{
+  height:75%;
+  z-index: 2;
+  position:absolute;
+  left: 80%;
+  top: 10%;
+  -webkit-transition-duration: .3s;
+  -moz-transition-duration: .3s;
+  -o-transition-duration: .3s;
+   transition-duration: .3s;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  transition-property: transform;
+  display:block;
+}
+img.MobileMenuMobileRotate {
+-webkit-transform: rotate(-90deg);
+-ms-transform: rotate(-90deg);
+ transform: rotate(-90deg);
+}
+img.MobileMenu
+{
+  display: none;
+}
+div.HeaderContainer{
+position:relative;
+vertical-align: middle;
+}
+div.container {
+	width: 100%;
+	height: auto;
+	border: 0px;
+	display: inline-block;
+}
+
+div.centerimage {
+float: middle;
+max-width: 300px;
+margin: 0;
+padding: 10px;
+margin-left: auto;
+margin-right: auto;
+}
+div.Project{
+float: middle;
+max-width: 100%;
+padding: 10px;
+margin-left: 15%;
+margin-right: 15%;
+}
+header {
+min-height: 3vh;
+color: white;
+background-color: #2F2E2E;
+clear: left;
+text-align: center;
+}
+.ButtonHeader{
+min-height: 3vh;
+color: white;
+background-color: #2F2E2E;
+clear: left;
+text-align: center;
+}
+
+.MobileHeaderDisplay {
+min-height: 3vh;
+color: white;
+background-color: #2F2E2E;
+clear: left;
+}
+.RemoveButtons{
+ display: none;
+}
+.MobileHeader{
+ display: none;
+}
+
+#footer
+{
+font-size: 1.6vh;
+color: white;
+background-color: #2F2E2E;
+clear: left;
+text-align: center;
+position:fixed;
+bottom:0px;
+left:0px;
+right:0px;
+margin-bottom:0px;
+}
+a:link {
+text-decoration: none;
+}
+button.launch {
+background-color:#2F2E2E;
+border:#3b3f44;
+font-size: 2.2vh;
+width: 13%;
+height: 50px;
+overflow:hidden;
+}
+button:focus {outline:0;}
+.center {
+padding: 5% 0;
+}
+.dropdown{
+  position: static;
+
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #bfbfbf;
+    min-width: 100%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+    font-size: 5vh;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+    border-style: solid;
+    border-width: .2vh;
+}
+.show {display:block;}
+
+.ContactMe{
+ width:40%;
+}
