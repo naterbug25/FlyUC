@@ -3,80 +3,45 @@
    <html lang="en">
       <head>
          <title>FlyUC: Home</title>
-         <link rel="icon" href="https://naterbug25.github.io/FlyUC/Images/Icon.ico" type="image/gif" sizes="16x16">
+         <link rel="icon" href="https://naterbug25.github.io/FlyUC/Images/favicon-16x16.png" type="image/gif" sizes="16x16">
          <!-- DC Social Icons CSS -->
          <meta charset="utf-8">
          <meta name="description" content="Nathan Huber Home">
          <meta name="keywords" content="UC, CO-OP, COOP, University Cincinnati, Fly, Fly Cincinnati, Nathan, Nathan Huber">
          <meta name="author" content="Nathan Huber, Nate Huber">
-         <!--  <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
-
-         <script>
-            <meta name="msvalidate.01" content="599B9D1AC3BDA66360867045D4CFF3AB" />
-         </script>
-         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>    
-         <script type="text/javascript">
-            <!--
-            if (screen.width <= 800) {
-               
-              $(document).ready(function(){
-                  $("h1").addClass("HeaderMobile");
-                  $(".intro").addClass("introMobile");
-                  $(".HomeImg").addClass("HomeImgMobile");
-                  $("p").removeClass("intro");
-                  $(".HomeImg").removeClass("HomeImg");  
-              });
-                                     }
-            //-->
-         </script>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		 
          <!-- Latest compiled and minified CSS -->
-         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		 <!-- CSS -->
+		 <link rel="stylesheet" type="text/css" href="Style/globaltemplate.css">
          <!-- jQuery library -->
-         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
          <!-- Latest compiled JavaScript -->
-         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-         <link rel="stylesheet" type="text/css" href="jsfiddle.css">
-         <link rel="stylesheet" type="text/css" href="Style/globaltemplate.css">
-         <link rel="stylesheet" type="text/css" href="http://www.dreamtemplate.com/dreamcodes/social_icons/tsc_social_icons.css" />
-
-         <script type="text/javascript">
-            <!--
-            if (screen.width <= 800) {              // Mobile Device
-              $(document).ready(function(){
-                  $("h1").addClass("HeaderMobile");             //Resize Titles
-                  $(".intro").addClass("introMobile");           // Adjust words
-                  $(".HomeImg").addClass("HomeImgMobile");      //Display Home Image Icon
-                  $(".MobileMenu").addClass("MobileMenuMobile");   // Mobile Menu
-                  $(".ButtonHeader").addClass("RemoveButtons");          //Remove Header Buttons
-                 // $document.getElementById('HeaderButtons').className += 'RemoveButtons';
-                 // $(".MobileBanner").addClass("MobileHeaderDisplay");// Display header banner
-                  $("p").removeClass("intro");                        // Adjust words
-                  $(".HomeImg").removeClass("HomeImg"); 
-                  $(".MobileMenu").removeClass("MobileMenu");  
-                  $(".ButtonHeader").removeClass("ButtonHeader");  
-                  
-              });
-            
-                                     }
-            //-->
-         </script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+		 <!-- Social Media Icons -->
+         <link rel="stylesheet" type="text/css" href="https://www.dreamtemplate.com/dreamcodes/social_icons/tsc_social_icons.css">
+		 
          <script>
             /* When the user clicks on the button, 
             toggle between hiding and showing the dropdown content */
             function DropDownMenu() {
-                document.getElementById("myDropdown").classList.toggle("show");
+                
+            document.getElementById("myDropdown").classList.toggle("show");
                 var x = document.getElementById('MobileIcon');
                 x.classList.toggle("MobileMenuMobileRotate");
             }
             // Close the dropdown if the user clicks outside of it
             window.onclick = function(event) {
-              if (!event.target.matches('.MobileMenuMobile')) {
+              if (!event.target.matches('.MobileMenu')) {
                 var dropdowns = document.getElementsByClassName("dropdown-content");
                 var i;
                 for (i = 0; i < dropdowns.length; i++) {
                   var openDropdown = dropdowns[i];
                   if (openDropdown.classList.contains('show')) {
                     openDropdown.classList.remove('show');
+            
                   var x = document.getElementById('MobileIcon');
                   x.classList.toggle("MobileMenuMobileRotate");
                   }
@@ -86,49 +51,154 @@
          </script>
       </head>
       <body>
-         <div class="HeaderContainer" >
-            <img src="http://naterbug25.github.io/NateHuber/Images/Header2.PNG" alt="Header Image" align="middle" style="width: 100%; max-width: 100%; z-index: 1;" >
-            <div class="dropdown">
-               <img class="MobileMenu" src="http://naterbug25.github.io/NateHuber/Images/Menu_Drop_Down_Button.jpg" alt="Error Image Not Found" tabindex="1" onclick="DropDownMenu()" id="MobileIcon" >
+         <div class="bg" id="container">
+            <!-- Top Heading -->
+            <div  id="left"> </div>
+            <!-- Empty Space-->
+            <div  id="right"> </div>
+            <!-- Empty Space-->
+            <div  id="center">
+               <!--<img src="https://naterbug25.github.io/FlyUC//Images/National_Crest.jpg" alt ="Crest" align ="middle" height="75vh"> -->
+               <div class="MobileHeaderContainer">
+                  <img class="MobileMenu" src="https://naterbug25.github.io/FlyUC/Images/Menu_Drop_Down_Button.jpg" alt="Error Image Not Found" tabindex="1" onclick="DropDownMenu()" id="MobileIcon" >
+               </div>
+               <h3>&Sigma; &Tau; &Gamma; Sigma Tau Gamma: Beta Lambda  </h3>
+               <h2><a href="https://www.valpo.edu/advwelcome/">Valparaiso University</a></h2>
+               <!-- Header Buttons-->
+               <header>
+                  <div class="ButtonHeader">
+                     <a href="https://naterbug25.github.io/FlyUC/Home" target="" </a><button class="launch_current" style="color:#000000;">Home</button></a>
+                     <a href="https://naterbug25.github.io/FlyUC/About_Us" target=""</a> <button class="launch" style="color:#000000;">About Us</button></a>
+                     <a href="https://naterbug25.github.io/FlyUC/Recruitment" target="" </a> <button class="launch" style="color:#000000;">Recruitment</button></a>
+                     <a href="https://naterbug25.github.io/FlyUC/Alumni" target="" </a> <button  class="launch" style="color:#000000;">Alumni</button></a>
+                     <a href="https://naterbug25.github.io/FlyUC/Contact_Us" target="" </a> <button class="launch" style="color:#000000;">Contact Us</button></a>
+					 <a href="https://naterbug25.github.io/FlyUC/Database" target="" </a> <button class="launch" style="color:#000000;">Database</button></a>
+                     <br>
+                  </div>
+               </header>
+            </div>
+            <div  id="left">
                <div id="myDropdown" class="dropdown-content">
                   <a href="https://naterbug25.github.io/FlyUC/Home">Home</a>
                   <a href="https://naterbug25.github.io/FlyUC/About_Us">About Us</a>
-
+                  <a href="https://naterbug25.github.io/FlyUC/Recruitment">Recruitment</a>
+                  <a href="https://naterbug25.github.io/FlyUC/Alumni">Alumni</a>
+                  <a href="https://naterbug25.github.io/FlyUC/Contact_Us">Contact Us</a>
+				  <a href="https://naterbug25.github.io/FlyUC/Database">Database</a>
+                  <a href="https://www.valpo.edu/advwelcome/">Valpo University</a>
+                  <a href="http://sigtau.org/">Sig Tau</a>
                </div>
             </div>
-         </div>
-         <!-- Header Buttons-->
-         <div>
-            <header>
-               <!--  <div class="MobileHeader">
-                  </div>-->
-               <div class="ButtonHeader">
-                  <a href="hhttps://naterbug25.github.io/FlyUC/Home" target="" </a><button class="launch" style="color:#ffd966;">Home</button></a>
-                  <a href="https://naterbug25.github.io/FlyUC/About_Us" target=""</a> <button class="launch" style="color:#e6e6e6;">About Us</button></a>
-                  <br>
+            <div id="right">
+               <div class = "Main_Links">
+                  <h1>
+                  <img src="https://naterbug25.github.io/FlyUC/Images/favicon_uni.ico" alt="" /> <a href="https://www.valpo.edu/advwelcome/">Valparaiso University</a>
+                  <h1>
                </div>
-            </header>
+               <div class = "Main_Links">
+                  <h1>
+                  <img src="https://naterbug25.github.io/FlyUC/Images/favicon_Nation.ico" alt="" /><a href="http://sigtau.org/">Sig Tau</a>
+                  <h1>
+               </div>
+               <!-- Twitter -->
+               <div class = "Twitter">
+                  <a class="twitter-timeline tw-align-center Twitter" href="https://twitter.com/SigmaTauGamma?ref_src=twsrc%5Etfw"
+                     data-width="80%"
+                     data-height="50vh"
+                     >Tweets by SigmaTauGamma</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+               </div>
+            </div>
+            <!-- Image Carousel -->
+            <div id ="center" >
+                <!--<div class="w3-content w3-display-container Scroll_Img">
+                  <img class="" src="https://naterbug25.github.io/FlyUC//Images/ValpoHouse_2_1.PNG" style="max-width:100%">
+                  <img class=" Mobile_Img" src="https://naterbug25.github.io/FlyUC//Images/People_1.PNG" style="width:100%">				
+                  <img class=" Mobile_Img" src="https://naterbug25.github.io/FlyUC//Images/801Union_1.jpg" style="width:100%">
+                  <img class=" Mobile_Img" src="https://naterbug25.github.io/FlyUC//Images/ValpoHouse_3.png" style="width:100%">
+                  <img class=" Mobile_Img" src="https://naterbug25.github.io/FlyUC//Images/801Union_2.JPG" style="width:100%">
+                  <button class="w3-button w3-black w3-display-left Mobile_Img" onclick="plusDivs(-1)">&#10094;</button>
+                  <button class="w3-button w3-black w3-display-right Mobile_Img" onclick="plusDivs(1)">&#10095;</button>
+				  
+               </div> -->
+
+<div id="carousel" class="carousel slide Scroll_Img" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel" data-slide-to="1"></li>
+      <li data-target="#carousel" data-slide-to="2"></li>
+	  <li data-target="#carousel" data-slide-to="3"></li>
+	  <li data-target="#carousel" data-slide-to="4"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner Home_Img">
+      <div class="item active">
+        <img class="" src="https://naterbug25.github.io/FlyUC//Images/ValpoHouse_2_1.PNG" alt="Valpo House IMG ERROR" style="width:100%">
+      </div>
+      <div class="item">
+        <img class="" src="https://naterbug25.github.io/FlyUC//Images/People_1.PNG" alt="Valpo House IMG ERROR" style="width:100%">
+      </div>
+      <div class="item">
+        <img class="" src="https://naterbug25.github.io/FlyUC//Images/801Union_1.jpg" alt="Valpo House IMG ERROR" style="width:100%">
+      </div>
+      <div class="item">
+        <img class="" src="https://naterbug25.github.io/FlyUC//Images/ValpoHouse_3.png" alt="Valpo House IMG ERROR" style="width:100%">
+      </div>
+      <div class="item ">
+        <img class="" src="https://naterbug25.github.io/FlyUC//Images/801Union_2.JPG" alt="Valpo House IMG ERROR" style="width:100%">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+  <!--   <a class="left carousel-control" href="#carousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>-->
+  </div>
+
+	   
+               <!-- Linked to google drive docs -->
+               <div>
+                  <iframe class ="home_page" src="https://docs.google.com/document/d/e/2PACX-1vSF0VAzVsB13xC8nG0UhBuveZWVcHqYQSep9XDN22Z-Kk--rKqh6FHq6qQLrhnm-JXqDIQX7iWjnueA/pub?embedded=true"  allowtransparency="true"></iframe>	
+                  <iframe class ="home_page" src="https://docs.google.com/document/d/e/2PACX-1vRmJbH3VG55Ath2P4JCYwhdJ7vyNbNQiPvhnrM1AElqaQglrqqgJKqk5YKlBajLlp8sXWrSQOrfc_vt/pub?embedded=true"  allowtransparency="true"></iframe>
+                  <iframe class ="home_page" src="https://docs.google.com/document/d/e/2PACX-1vSIP8zBgzG-SnT8rmAiB9dHGHih6nkXEq3BNtevK46N9X4YosaAIiQnSbPGpLQ1Mw7HNANqSlX6OHLn/pub?embedded=true"  allowtransparency="true"></iframe>
+                  <iframe class ="home_page" src="https://docs.google.com/document/d/e/2PACX-1vREkYewH_Q0dcv2d0ebP3SSNTqdLtBlTb812bMzFGBkO6CD2ixTwDiDT_K_VduoYBLdgJt13nAk9IFU/pub?embedded=true"  allowtransparency="true"></iframe>
+                  <iframe class ="home_page" src="https://docs.google.com/document/d/e/2PACX-1vSusku5xfo6h_akfEPRiYpk5CYuo4poIY2zE_cVw5L0f-D2StWl1Bz5-G5Ak2sEi-jMCB_YafBcMqim/pub?embedded=true"  allowtransparency="true"></iframe>
+               </div>
+            </div>
+            <br><br>
          </div>
-         <div id="container">
-            <br>
-            <div  id="left"> </div>
-            <!-- Empty  Space-->
-            <div  id="right"></div>
-            <!-- Empty Space-->
-		 <div  id="center" >
-            <img class ="HomeImg" src="https://naterbug25.github.io/FlyUC/Images/Home.jpg" alt="Well that wasn't supposed to happen..." >	
-            <a href="https://www.instagram.com/flyuc/?hl=en" target="_blank" style=color:black > 
-               <h1>FlyUC: University of Cincinnati</h1>
-            </a>
-               <iframe class ="home_page" src="https://docs.google.com/document/d/e/2PACX-1vR3oH3F2SKdqBIYgp_UF4lAV-otEJZ0T9YMgUzDpyP1WH-rhDxU2aC-rSsBqGZKA7N3FP6AtYIibBiN/pub?embedded=true" allowtransparency="true" scrolling="no" ></iframe>
-               <br><br>
+         <!-- Footer -->
+         <div id="footer">
+            Copyright &copy 2018 Nathan Huber 
+            <!--<a class="linkedin_square32 tsc_social_square32" title="linkedin" target="_blank" href="https://www.linkedin.com/in/hubernathan">Linkedin</a>-->
+            <a class="facebook_square32 tsc_social_square32" title="facebook" target="_blank" href="https://www.facebook.com/SigTauBeta/">Facebook</a>
+            <a class="github_square32 tsc_social_square32" title="github" target="_blank" href="https://github.com/naterbug25">GitHub</a>
          </div>
-		 </div>
-         <div id="footer">    
-             Copyright &copy 2019 Nathan Huber 
-            <a class="linkedin_square32 tsc_social_square32" title="linkedin" target="_blank" href="https://www.linkedin.com/in/hubernathan">Linkedin</a>
-            <a class="facebook_square32 tsc_social_square32" title="facebook" target="_blank" href="https://www.facebook.com/nathan.huber.7">Facebook</a>
-            <a class="github_square32 tsc_social_square32" title="facebook" target="_blank" href="https://github.com/naterbug25">Facebook</a>
-         </div>
+         <!-- Image Carousel -->
+         <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+            
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+            
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              if (n > x.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                 x[i].style.display = "none";  
+              }
+              x[slideIndex-1].style.display = "block";  
+            }
+         </script>
       </body>
    </html>
