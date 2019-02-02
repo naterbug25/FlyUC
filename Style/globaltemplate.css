@@ -138,7 +138,7 @@ h2 {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 1vh;
-	color: #f2f2f2;
+	color: #000000;
 	text-decoration: none;
 }
 
@@ -155,7 +155,7 @@ h3 {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 1vh;
-	color: #f2f2f2;
+	color: #000000;
 }
 
 a {
@@ -388,7 +388,7 @@ iframe.map {
 		margin-left: auto;
 		margin-right: auto;
 		margin-bottom: 1vh;
-		color: #f2f2f2;
+		color: #000000;
 		float: left;
 		display: inline-block;
 		max-width: 70%;
@@ -404,7 +404,7 @@ iframe.map {
 		margin-top: 2vh;
 		margin-left: auto;
 		margin-right: auto;
-		color: #f2f2f2;
+		color: #000000;
 		float: left;
 		display: inline-block;
 		max-width: 70%;
