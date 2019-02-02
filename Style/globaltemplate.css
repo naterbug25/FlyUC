@@ -161,6 +161,8 @@ h3 {
 a {
 	color: inherit;
 	background-color: transparent;
+	text-decoration: none;
+}
 
 a:hover {
 	color: inherit;
@@ -224,7 +226,7 @@ div.Project {
 }
 
 .Scroll_Img{
-	max-width:100%;
+	max-width:90%;
 	margin:1vh}
 
 .ButtonHeader {
