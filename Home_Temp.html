@@ -78,65 +78,66 @@
                <!-- Header Buttons-->
                <header>
                   <div class="ButtonHeader">
-                     <a href="https://naterbug25.github.io/FlyUC/Home" target="" </a><button class="launch_current" style="color:#000000;">Home</button></a>
-					 <!--	TEMPORARY REMOVAL  
-                     <a href="https://naterbug25.github.io/FlyUC/Recruitment" target="" </a> <button class="launch" style="color:#000000;">Recruitment</button></a>
-                     <a href="https://naterbug25.github.io/FlyUC/Members" target="" </a> <button  class="launch" style="color:#000000;">Members</button></a>
-                     <a href="https://naterbug25.github.io/FlyUC/Contact_Us" target="" </a> <button class="launch" style="color:#000000;">Contact Us</button></a>
-					 <a href="https://naterbug25.github.io/FlyUC/Database" target="" </a> <button class="launch" style="color:#000000;">Database</button></a>
-					 -->
                      <br>
                   </div>
                </header>
             </div>
             <div  id="left">
                <div id="myDropdown" class="dropdown-content">
-                  <a href="https://naterbug25.github.io/FlyUC/Home">Home</a>
-				  <!--	TEMPORARY REMOVAL  
-                  <a href="https://naterbug25.github.io/FlyUC/Recruitment">Recruitment</a>
-                  <a href="https://naterbug25.github.io/FlyUC/Members">Members</a>
-                  <a href="https://naterbug25.github.io/FlyUC/Contact_Us">Contact Us</a>
-				  <a href="https://naterbug25.github.io/FlyUC/Database">Database</a>
-                  <a href="http://goflyprize.com/">GoFly</a> -->
+
                </div>
             </div>
             <div id="right">
                <div class = "Main_Links">
-			   <!--	TEMPORARY REMOVAL  
-                  <h1>
-                  <img src="https://naterbug25.github.io/FlyUC/Images/favicon_uni.ico" alt="" /> <a href="http://goflyprize.com/">GoFly</a>
-                  <h1>
                </div>
-                <!--  <div class = "Main_Links">
-                  <h1>
-                  <img src="https://naterbug25.github.io/FlyUC/Images/favicon_Nation.ico" alt="" /><a href="https://www.uc.edu/">University of Cincinnati</a>
-                  <h1>
-               </div>-->
 			   
-               <!-- Twitter -->
-			   <!--	TEMPORARY REMOVAL  
-               <div class = "Twitter">
-                  <a class="twitter-timeline tw-align-center Twitter" href="https://twitter.com/fly_uc?lang=en"
-                     data-width="80%"
-                     data-height="50vh"
-                     >Tweets by FlyUC</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-               </div>
-			   -->
             </div>
             <!-- Image Carousel -->
             <div id ="center" >
-				<div>
-				<span><a href="https://naterbug25.github.io/FlyUC/Home">Document 1</a></span>
-				<span><button onclick="myFunction()">View</button></span>
+			<!-- Document 1-->
+				<div class="Scroll_Img">
+				<span><a href="https://naterbug25.github.io/FlyUC/Home"><b>Document 1</b></a></span>
+				<span><button onclick="Doc_1_View()">View</button></span>
+				<span><a href="https://naterbug25.github.io/FlyUC/Home">Download</a></span>
 				</div>
-				
-			</div>
-  
+				<!-- Document 2-->
+				<div class="Scroll_Img">
+				<span><a href="https://naterbug25.github.io/FlyUC/Home"><b>Document 2</b></a></span>
+				<span><button onclick="Doc_2_View()">View</button></span>
+				<span><a href="https://naterbug25.github.io/FlyUC/Home">Download</a></span>			
+				</div>
+				<!-- Document 3-->
+				<div class="Scroll_Img">
+				<span><a href="https://naterbug25.github.io/FlyUC/Home"><b>Document 3</b></a></span>
+				<span><button onclick="Doc_3_View()">View</button></span>
+				<span><a href="https://naterbug25.github.io/FlyUC/Home">Download</a></span>
+				</div>
+				<!-- Document 4
+				<div class="Scroll_Img">
+				<span><a href="https://naterbug25.github.io/FlyUC/Home"><b>Document 4</b></a></span>
+				<span><button onclick="Doc_4_View()">View</button></span>
+				<span><a href="https://naterbug25.github.io/FlyUC/Home">Download</a></span>
+				</div>  				
+ 				<!-- Document 5
+				<div class="Scroll_Img">
+				<span><a href="https://naterbug25.github.io/FlyUC/Home"><b>Document 5</b></a></span>
+				<span><button onclick="Doc_5_View()">View</button></span>
+				<span><a href="https://naterbug25.github.io/FlyUC/Home">Download</a></span>
+				</div>  	 
  
                <!-- Linked to google drive docs -->
                <div>
-				<iframe class ="home_page" src="https://docs.google.com/document/d/e/2PACX-1vRXYcH4nYINCZJwDY8BMsf9ZTULSgIkpDXQv3xcEXjNLXG-9eSJ-1w3JMgcI5cffVuoubBUzCgwQRdI/pub?embedded=true"  allowtransparency="true"></iframe>
-               </div>
+				<iframe id="Doc_1" class ="home_page" src="https://docs.google.com/document/d/e/2PACX-1vQ9Xtxhm2B2rvwioEJ4aJGGll5fGjLwJ3qgcD7FfRHkSFvaU1IJ6xfccQF9zN6pftOAF1ND6buao_3C/pub?embedded=true"  allowtransparency="true"  style="Display: none;"></iframe>
+                <iframe id="Doc_2" class ="home_page" src="https://docs.google.com/document/d/e/2PACX-1vRaHhFZ0_I2GYb9NUfo2CACJGt6dg1ec7ynl215v9nL8PnMyKsED4-RZipK2zfg9uc6eE5xMyvk-3_4/pub?embedded=true"  allowtransparency="true"  style="Display: none;"></iframe>
+				<iframe id="Doc_3" class ="home_page" src="https://docs.google.com/document/d/e/2PACX-1vREfSk--yK7_pKJpGK1ZblQwf5S1k80p_R9HIdu10VeTFb-x9t2QfcyNuIgNyHE11rhg39EjeUph2MN/pub?embedded=true"  allowtransparency="true"  style="Display: none;"></iframe>
+                <iframe id="Doc_4" class ="home_page" src="https://docs.google.com/document/d/e/2PACX-1vRhhyUrOS6ymt2g8SH2hGXaqulaQAphK2DBDf2OyRqVKUunnCs4Pb6SoJqeG_-DHWLpx_IzkMVy3IPa/pub?embedded=true"  allowtransparency="true"  style="Display: none;"></iframe>
+                <iframe id="Doc_5" class ="home_page" src="https://docs.google.com/document/d/e/2PACX-1vQnL5ak6GrLVFvAqmhjl2hTGHluNMVAPbqM_2Nz0W2JB-rvKgS-qgmnHVVObUPwaPpvKFKGHV3QFpIr/pub?embedded=true"  allowtransparency="true"  style="Display: none;"></iframe>
+			  </div>
+			   
+			   
+			   
+			   
+			   
             </div>
 
             <br><br>
@@ -168,14 +169,97 @@
               x[slideIndex-1].style.display = "block";  
             }
 			
-			function myFunction() {
-				var x = document.getElementById("myDIV");
-					if (x.style.display === "none") {
-						x.style.display = "block";
+			function Doc_1_View() {
+				var Doc_1 = document.getElementById("Doc_1");
+				var Doc_2 = document.getElementById("Doc_2");
+				var Doc_3 = document.getElementById("Doc_3");
+				var Doc_4 = document.getElementById("Doc_4");
+				var Doc_5 = document.getElementById("Doc_5");
+					if (Doc_1.style.display === "none") {
+						Doc_1.style.display = "block";
+						
+						Doc_2.style.display = "none";
+						Doc_3.style.display = "none";
+						Doc_4.style.display = "none";
+						Doc_5.style.display = "none";
+						
 					} else {
-						x.style.display = "none";
+						Doc_1.style.display = "none";
 							}
 			}
+			function Doc_2_View() {
+				var Doc_1 = document.getElementById("Doc_1");
+				var Doc_2 = document.getElementById("Doc_2");
+				var Doc_3 = document.getElementById("Doc_3");
+				var Doc_4 = document.getElementById("Doc_4");
+				var Doc_5 = document.getElementById("Doc_5");
+					if (Doc_2.style.display === "none") {
+						Doc_2.style.display = "block";
+						
+						Doc_1.style.display = "none";
+						Doc_3.style.display = "none";
+						Doc_4.style.display = "none";
+						Doc_5.style.display = "none";
+					} else {
+						Doc_2.style.display = "none";
+							}
+			}
+			
+			function Doc_3_View() {
+				var Doc_1 = document.getElementById("Doc_1");
+				var Doc_2 = document.getElementById("Doc_2");
+				var Doc_3 = document.getElementById("Doc_3");
+				var Doc_4 = document.getElementById("Doc_4");
+				var Doc_5 = document.getElementById("Doc_5");
+					if (Doc_3.style.display === "none") {
+						Doc_3.style.display = "block";
+						
+						Doc_1.style.display = "none";
+						Doc_2.style.display = "none";
+						Doc_4.style.display = "none";
+						Doc_5.style.display = "none";
+					} else {
+Doc_3.style.display = "none";
+							}
+			}
+			
+			function Doc_4_View() {
+				var Doc_1 = document.getElementById("Doc_1");
+				var Doc_2 = document.getElementById("Doc_2");
+				var Doc_3 = document.getElementById("Doc_3");
+				var Doc_4 = document.getElementById("Doc_4");
+				var Doc_5 = document.getElementById("Doc_5");
+					if (Doc_4.style.display === "none") {
+						Doc_4.style.display = "block";
+						
+						Doc_1.style.display = "none";
+						Doc_2.style.display = "none";
+						Doc_3.style.display = "none";
+						Doc_5.style.display = "none";
+					} else {
+Doc_4.style.display = "none";
+							}
+			}	
+			
+			function Doc_5_View() {
+				var Doc_1 = document.getElementById("Doc_1");
+				var Doc_2 = document.getElementById("Doc_2");
+				var Doc_3 = document.getElementById("Doc_3");
+				var Doc_4 = document.getElementById("Doc_4");
+				var Doc_5 = document.getElementById("Doc_5");
+					if (Doc_5.style.display === "none") {
+						Doc_5.style.display = "block";
+						
+						Doc_1.style.display = "none";
+						Doc_2.style.display = "none";
+						Doc_3.style.display = "none";
+						Doc_4.style.display = "none";
+					} else {
+Doc_5.style.display = "none";
+							}
+			}	
+			
+			
          </script>
       </body>
    </html>
