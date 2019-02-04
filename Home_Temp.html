@@ -1,5 +1,5 @@
 <!DOCTYPE html>
- <!--
+<!--
   Fly UC Website
   Written: Nathan Huber
   University of Cincinnati
@@ -10,256 +10,214 @@
  
  -->
 <html>
-   <html lang="en">
-      <head>
-         <title>FlyUC: Home</title>
-         <link rel="icon" href="https://naterbug25.github.io/FlyUC/Images/favicon-16x16.png" type="image/gif" sizes="16x16">
-         <!-- DC Social Icons CSS -->
-         <meta charset="utf-8">
-         <meta name="description" content="Nathan Huber Home">
-         <meta name="keywords" content="UC, CO-OP, COOP, Fly Cincinnati Corp, University Cincinnati, Fly, Fly Cincinnati, Nathan, Nathan Huber", Fly UC>
-         <meta name="author" content="Nathan Huber, Nate Huber">
-         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		 
-         <!-- Latest compiled and minified CSS -->
-		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-		 <!-- CSS -->
-		 <link rel="stylesheet" type="text/css" href="https://naterbug25.github.io/FlyUC/Style/globaltemplate.css">
-         <!-- jQuery library -->
-		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-         <!-- Latest compiled JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
-		 <!-- Social Media Icons -->
-         <link rel="stylesheet" type="text/css" href="https://www.dreamtemplate.com/dreamcodes/social_icons/tsc_social_icons.css">
-		 
-         <script>
-            /* When the user clicks on the button, 
-            toggle between hiding and showing the dropdown content */
-            function DropDownMenu() {
-                
-            document.getElementById("myDropdown").classList.toggle("show");
-                var x = document.getElementById('MobileIcon');
-                x.classList.toggle("MobileMenuMobileRotate");
-            }
-            // Close the dropdown if the user clicks outside of it
-            window.onclick = function(event) {
-              if (!event.target.matches('.MobileMenu')) {
-                var dropdowns = document.getElementsByClassName("dropdown-content");
-                var i;
-                for (i = 0; i < dropdowns.length; i++) {
-                  var openDropdown = dropdowns[i];
-                  if (openDropdown.classList.contains('show')) {
-                    openDropdown.classList.remove('show');
-            
-                  var x = document.getElementById('MobileIcon');
-                  x.classList.toggle("MobileMenuMobileRotate");
-                  }
-                }
-              }
-            }
-         </script>
-      </head>
-      <body>
-         <div class="bg" id="container">
-            <!-- Top Heading -->
-            <div  id="left"> </div>
-            <!-- Empty Space-->
-            <div  id="right"> </div>
-            <!-- Empty Space-->
-            <div  id="center">
-               <div class="MobileHeaderContainer">
-                  <img class="MobileMenu" src="https://naterbug25.github.io/FlyUC/Images/Menu_Drop_Down_Button.jpg" alt="Error Image Not Found" tabindex="1" onclick="DropDownMenu()" id="MobileIcon" >
-               </div>
-               <h3>Fly UC</h3>
-			    <!--	TEMPORARY REMOVAL 
+<head>
+	<title>FlyUC: Home</title>
+	<link href="https://naterbug25.github.io/FlyUC/Images/favicon-16x16.png" rel="icon" sizes="16x16" type="image/gif"><!-- DC Social Icons CSS -->
+	<meta charset="utf-8">
+	<meta content="Nathan Huber Home" name="description">
+	<meta content="UC, CO-OP, COOP, Fly Cincinnati Corp, University Cincinnati, Fly, Fly Cincinnati, Nathan, Nathan Huber" name="keywords">
+	<meta content="Nathan Huber, Nate Huber" name="author">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport"><!-- Latest compiled and minified CSS -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet"><!-- CSS -->
+	<link href="https://naterbug25.github.io/FlyUC/Style/globaltemplate.css" rel="stylesheet" type="text/css"><!-- jQuery library -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	</script><!-- Latest compiled JavaScript -->
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+	</script><!-- Social Media Icons -->
+	<link href="https://www.dreamtemplate.com/dreamcodes/social_icons/tsc_social_icons.css" rel="stylesheet" type="text/css">
+	<script>
+	           /* When the user clicks on the button, 
+	           toggle between hiding and showing the dropdown content */
+	           function DropDownMenu() {
+	               
+	           document.getElementById("myDropdown").classList.toggle("show");
+	               var x = document.getElementById('MobileIcon');
+	               x.classList.toggle("MobileMenuMobileRotate");
+	           }
+	           // Close the dropdown if the user clicks outside of it
+	           window.onclick = function(event) {
+	             if (!event.target.matches('.MobileMenu')) {
+	               var dropdowns = document.getElementsByClassName("dropdown-content");
+	               var i;
+	               for (i = 0; i < dropdowns.length; i++) {
+	                 var openDropdown = dropdowns[i];
+	                 if (openDropdown.classList.contains('show')) {
+	                   openDropdown.classList.remove('show');
+	           
+	                 var x = document.getElementById('MobileIcon');
+	                 x.classList.toggle("MobileMenuMobileRotate");
+	                 }
+	               }
+	             }
+	           }
+	</script>
+</head>
+<body>
+	<div class="bg" id="container">
+		<!-- Top Heading -->
+		<div id="left"></div><!-- Empty Space-->
+		<div id="right"></div><!-- Empty Space-->
+		<div id="center">
+			<div class="MobileHeaderContainer"><img alt="Error Image Not Found" class="MobileMenu" id="MobileIcon" onclick="DropDownMenu()" src="https://naterbug25.github.io/FlyUC/Images/Menu_Drop_Down_Button.jpg" tabindex="1"></div>
+			<h3>Fly UC</h3><!--    TEMPORARY REMOVAL 
                <h2><a href="http://goflyprize.com/">GoFly - Sponsered by Boeing</a></h2>-->
-			   
-               <!-- Header Buttons-->
-               <header>
-                  <div class="ButtonHeader">
-                     <br>
-                  </div>
-               </header>
-            </div>
-            <div  id="left">
-               <div id="myDropdown" class="dropdown-content">
-
-               </div>
-            </div>
-            <div id="right">
-               <div class = "Main_Links">
-               </div>
-			   
-            </div>
-            <!-- Image Carousel -->
-            <div id ="center" >
+			<!-- Header Buttons-->
+			<header>
+				<div class="ButtonHeader">
+					<br>
+				</div>
+			</header>
+		</div>
+		<div id="left">
+			<div class="dropdown-content" id="myDropdown"></div>
+		</div>
+		<div id="right">
+			<div class="Main_Links"></div>
+		</div><!-- Image Carousel -->
+		<div id="center">
 			<!-- Document 1-->
-				<div class="Scroll_Img">
-				<span><a href="https://naterbug25.github.io/FlyUC/Home"><b>Document 1</b></a></span>
-				<span><button onclick="Doc_1_View()">View</button></span>
-				<span><a href="https://naterbug25.github.io/FlyUC/Home">Download</a></span>
-				</div>
-				<!-- Document 2-->
-				<div class="Scroll_Img">
-				<span><a href="https://naterbug25.github.io/FlyUC/Home"><b>Document 2</b></a></span>
-				<span><button onclick="Doc_2_View()">View</button></span>
-				<span><a href="https://naterbug25.github.io/FlyUC/Home">Download</a></span>			
-				</div>
-				<!-- Document 3-->
-				<div class="Scroll_Img">
-				<span><a href="https://naterbug25.github.io/FlyUC/Home"><b>Document 3</b></a></span>
-				<span><button onclick="Doc_3_View()">View</button></span>
-				<span><a href="https://naterbug25.github.io/FlyUC/Home">Download</a></span>
-				</div>
-				<!-- Document 4
-				<div class="Scroll_Img">
-				<span><a href="https://naterbug25.github.io/FlyUC/Home"><b>Document 4</b></a></span>
-				<span><button onclick="Doc_4_View()">View</button></span>
-				<span><a href="https://naterbug25.github.io/FlyUC/Home">Download</a></span>
-				</div>  				
- 				<!-- Document 5
-				<div class="Scroll_Img">
-				<span><a href="https://naterbug25.github.io/FlyUC/Home"><b>Document 5</b></a></span>
-				<span><button onclick="Doc_5_View()">View</button></span>
-				<span><a href="https://naterbug25.github.io/FlyUC/Home">Download</a></span>
-				</div>  	 
+			<div class="Scroll_Img">
+				<span><a href="https://naterbug25.github.io/FlyUC/Home"><b>Technical Report</b></a></span> <span><button onclick="Doc_1_View()"><span>View</span></button></span> <span><a href="https://naterbug25.github.io/FlyUC/Home">Download</a></span>
+			</div><!-- Document 2-->
+			<div class="Scroll_Img">
+				<span><a href="https://naterbug25.github.io/FlyUC/Home"><b>Safety Report</b></a></span> <span><button onclick="Doc_2_View()"><span>View</span></button></span> <span><a href="https://naterbug25.github.io/FlyUC/Home">Download</a></span>
+			</div><!-- Document 3-->
+			<div class="Scroll_Img">
+				<span><a href="https://naterbug25.github.io/FlyUC/Home"><b>Video</b></a></span> <span><button onclick="Doc_3_View()"><span>View</span></button></span> <span><a href="https://naterbug25.github.io/FlyUC/Home">Download</a></span>
+			</div><!-- Document 4
+                <div class="Scroll_Img">
+                <span><a href="https://naterbug25.github.io/FlyUC/Home"><b>Document 4</b></a></span>
+                <span><button onclick="Doc_4_View()">View</button></span>
+                <span><a href="https://naterbug25.github.io/FlyUC/Home">Download</a></span>
+                </div>                  
+                <!== Document 5
+                <div class="Scroll_Img">
+                <span><a href="https://naterbug25.github.io/FlyUC/Home"><b>Document 5</b></a></span>
+                <span><button onclick="Doc_5_View()">View</button></span>
+                <span><a href="https://naterbug25.github.io/FlyUC/Home">Download</a></span>
+                </div>       
  
-               <!-- Linked to google drive docs -->
-               <div>
-				<iframe id="Doc_1" class ="home_page" src="https://docs.google.com/document/d/e/2PACX-1vQ9Xtxhm2B2rvwioEJ4aJGGll5fGjLwJ3qgcD7FfRHkSFvaU1IJ6xfccQF9zN6pftOAF1ND6buao_3C/pub?embedded=true"  allowtransparency="true"  style="Display: none;"></iframe>
-                <iframe id="Doc_2" class ="home_page" src="https://docs.google.com/document/d/e/2PACX-1vRaHhFZ0_I2GYb9NUfo2CACJGt6dg1ec7ynl215v9nL8PnMyKsED4-RZipK2zfg9uc6eE5xMyvk-3_4/pub?embedded=true"  allowtransparency="true"  style="Display: none;"></iframe>
-				<iframe id="Doc_3" class ="home_page" src="https://docs.google.com/document/d/e/2PACX-1vREfSk--yK7_pKJpGK1ZblQwf5S1k80p_R9HIdu10VeTFb-x9t2QfcyNuIgNyHE11rhg39EjeUph2MN/pub?embedded=true"  allowtransparency="true"  style="Display: none;"></iframe>
-                <iframe id="Doc_4" class ="home_page" src="https://docs.google.com/document/d/e/2PACX-1vRhhyUrOS6ymt2g8SH2hGXaqulaQAphK2DBDf2OyRqVKUunnCs4Pb6SoJqeG_-DHWLpx_IzkMVy3IPa/pub?embedded=true"  allowtransparency="true"  style="Display: none;"></iframe>
-                <iframe id="Doc_5" class ="home_page" src="https://docs.google.com/document/d/e/2PACX-1vQnL5ak6GrLVFvAqmhjl2hTGHluNMVAPbqM_2Nz0W2JB-rvKgS-qgmnHVVObUPwaPpvKFKGHV3QFpIr/pub?embedded=true"  allowtransparency="true"  style="Display: none;"></iframe>
-			  </div>
-			   
-			   
-			   
-			   
-			   
-            </div>
-
-            <br><br>
-         </div>
-         <!-- Footer -->
-         <div id="footer">
-            2019 Nathan Huber 
-            <a class="linkedin_square32 tsc_social_square32" title="linkedin" target="_blank" href="https://www.linkedin.com/in/hubernathan">Linkedin</a>
-            <a class="facebook_square32 tsc_social_square32" title="facebook" target="_blank" href="https://github.com/naterbug25/FlyUC">Facebook</a>
-            <a class="github_square32 tsc_social_square32" title="github" target="_blank" href="https://github.com/naterbug25">GitHub</a>
-         </div>
-         <!-- Image Carousel -->
-         <script>
-            var slideIndex = 1;
-            showDivs(slideIndex);
-            
-            function plusDivs(n) {
-              showDivs(slideIndex += n);
-            }
-            
-            function showDivs(n) {
-              var i;
-              var x = document.getElementsByClassName("mySlides");
-              if (n > x.length) {slideIndex = 1}    
-              if (n < 1) {slideIndex = x.length}
-              for (i = 0; i < x.length; i++) {
-                 x[i].style.display = "none";  
-              }
-              x[slideIndex-1].style.display = "block";  
-            }
-			
-			function Doc_1_View() {
-				var Doc_1 = document.getElementById("Doc_1");
-				var Doc_2 = document.getElementById("Doc_2");
-				var Doc_3 = document.getElementById("Doc_3");
-				var Doc_4 = document.getElementById("Doc_4");
-				var Doc_5 = document.getElementById("Doc_5");
-					if (Doc_1.style.display === "none") {
-						Doc_1.style.display = "block";
-						
-						Doc_2.style.display = "none";
-						Doc_3.style.display = "none";
-						Doc_4.style.display = "none";
-						Doc_5.style.display = "none";
-						
-					} else {
-						Doc_1.style.display = "none";
-							}
-			}
-			function Doc_2_View() {
-				var Doc_1 = document.getElementById("Doc_1");
-				var Doc_2 = document.getElementById("Doc_2");
-				var Doc_3 = document.getElementById("Doc_3");
-				var Doc_4 = document.getElementById("Doc_4");
-				var Doc_5 = document.getElementById("Doc_5");
-					if (Doc_2.style.display === "none") {
-						Doc_2.style.display = "block";
-						
-						Doc_1.style.display = "none";
-						Doc_3.style.display = "none";
-						Doc_4.style.display = "none";
-						Doc_5.style.display = "none";
-					} else {
-						Doc_2.style.display = "none";
-							}
-			}
-			
-			function Doc_3_View() {
-				var Doc_1 = document.getElementById("Doc_1");
-				var Doc_2 = document.getElementById("Doc_2");
-				var Doc_3 = document.getElementById("Doc_3");
-				var Doc_4 = document.getElementById("Doc_4");
-				var Doc_5 = document.getElementById("Doc_5");
-					if (Doc_3.style.display === "none") {
-						Doc_3.style.display = "block";
-						
-						Doc_1.style.display = "none";
-						Doc_2.style.display = "none";
-						Doc_4.style.display = "none";
-						Doc_5.style.display = "none";
-					} else {
-Doc_3.style.display = "none";
-							}
-			}
-			
-			function Doc_4_View() {
-				var Doc_1 = document.getElementById("Doc_1");
-				var Doc_2 = document.getElementById("Doc_2");
-				var Doc_3 = document.getElementById("Doc_3");
-				var Doc_4 = document.getElementById("Doc_4");
-				var Doc_5 = document.getElementById("Doc_5");
-					if (Doc_4.style.display === "none") {
-						Doc_4.style.display = "block";
-						
-						Doc_1.style.display = "none";
-						Doc_2.style.display = "none";
-						Doc_3.style.display = "none";
-						Doc_5.style.display = "none";
-					} else {
-Doc_4.style.display = "none";
-							}
-			}	
-			
-			function Doc_5_View() {
-				var Doc_1 = document.getElementById("Doc_1");
-				var Doc_2 = document.getElementById("Doc_2");
-				var Doc_3 = document.getElementById("Doc_3");
-				var Doc_4 = document.getElementById("Doc_4");
-				var Doc_5 = document.getElementById("Doc_5");
-					if (Doc_5.style.display === "none") {
-						Doc_5.style.display = "block";
-						
-						Doc_1.style.display = "none";
-						Doc_2.style.display = "none";
-						Doc_3.style.display = "none";
-						Doc_4.style.display = "none";
-					} else {
-Doc_5.style.display = "none";
-							}
-			}	
-			
-			
-         </script>
-      </body>
-   </html>
+               <!== Linked to google drive docs -->
+			<div>
+				<iframe class="doc_page" id="Doc_1" name="Doc_1" src="https://docs.google.com/document/d/e/2PACX-1vQ9Xtxhm2B2rvwioEJ4aJGGll5fGjLwJ3qgcD7FfRHkSFvaU1IJ6xfccQF9zN6pftOAF1ND6buao_3C/pub?embedded=true" style="Display: none;"></iframe> <iframe class="doc_page" id="Doc_2" name="Doc_2" src="https://docs.google.com/document/d/e/2PACX-1vRaHhFZ0_I2GYb9NUfo2CACJGt6dg1ec7ynl215v9nL8PnMyKsED4-RZipK2zfg9uc6eE5xMyvk-3_4/pub?embedded=true" style="Display: none;"></iframe> <iframe class="doc_page" id="Doc_3" name="Doc_3" src="https://docs.google.com/document/d/e/2PACX-1vREfSk--yK7_pKJpGK1ZblQwf5S1k80p_R9HIdu10VeTFb-x9t2QfcyNuIgNyHE11rhg39EjeUph2MN/pub?embedded=true" style="Display: none;"></iframe> <iframe class="doc_page" id="Doc_4" name="Doc_4" src="https://docs.google.com/document/d/e/2PACX-1vRhhyUrOS6ymt2g8SH2hGXaqulaQAphK2DBDf2OyRqVKUunnCs4Pb6SoJqeG_-DHWLpx_IzkMVy3IPa/pub?embedded=true" style="Display: none;"></iframe> <iframe class="doc_page" id="Doc_5" name="Doc_5" src="https://docs.google.com/document/d/e/2PACX-1vQnL5ak6GrLVFvAqmhjl2hTGHluNMVAPbqM_2Nz0W2JB-rvKgS-qgmnHVVObUPwaPpvKFKGHV3QFpIr/pub?embedded=true" style="Display: none;"></iframe>
+			</div>
+		</div><br>
+		<br>
+	</div><!-- Footer -->
+	<div id="footer">
+		2019 Nathan Huber <a class="linkedin_square32 tsc_social_square32" href="https://www.linkedin.com/in/hubernathan" target="_blank" title="linkedin">Linkedin</a> <a class="facebook_square32 tsc_social_square32" href="https://github.com/naterbug25/FlyUC" target="_blank" title="facebook">Facebook</a> <a class="github_square32 tsc_social_square32" href="https://github.com/naterbug25" target="_blank" title="github">GitHub</a>
+	</div><!-- Image Carousel -->
+	<script>
+	           var slideIndex = 1;
+	           showDivs(slideIndex);
+	           
+	           function plusDivs(n) {
+	             showDivs(slideIndex += n);
+	           }
+	           
+	           function showDivs(n) {
+	             var i;
+	             var x = document.getElementsByClassName("mySlides");
+	             if (n > x.length) {slideIndex = 1}    
+	             if (n < 1) {slideIndex = x.length}
+	             for (i = 0; i < x.length; i++) {
+	                x[i].style.display = "none";  
+	             }
+	             x[slideIndex-1].style.display = "block";  
+	           }
+	           
+	           function Doc_1_View() {
+	               var Doc_1 = document.getElementById("Doc_1");
+	               var Doc_2 = document.getElementById("Doc_2");
+	               var Doc_3 = document.getElementById("Doc_3");
+	               var Doc_4 = document.getElementById("Doc_4");
+	               var Doc_5 = document.getElementById("Doc_5");
+	                   if (Doc_1.style.display === "none") {
+	                       Doc_1.style.display = "block";
+	                       
+	                       Doc_2.style.display = "none";
+	                       Doc_3.style.display = "none";
+	                       Doc_4.style.display = "none";
+	                       Doc_5.style.display = "none";
+	                       
+	                   } else {
+	                       Doc_1.style.display = "none";
+	                           }
+	           }
+	           function Doc_2_View() {
+	               var Doc_1 = document.getElementById("Doc_1");
+	               var Doc_2 = document.getElementById("Doc_2");
+	               var Doc_3 = document.getElementById("Doc_3");
+	               var Doc_4 = document.getElementById("Doc_4");
+	               var Doc_5 = document.getElementById("Doc_5");
+	                   if (Doc_2.style.display === "none") {
+	                       Doc_2.style.display = "block";
+	                       
+	                       Doc_1.style.display = "none";
+	                       Doc_3.style.display = "none";
+	                       Doc_4.style.display = "none";
+	                       Doc_5.style.display = "none";
+	                   } else {
+	                       Doc_2.style.display = "none";
+	                           }
+	           }
+	           
+	           function Doc_3_View() {
+	               var Doc_1 = document.getElementById("Doc_1");
+	               var Doc_2 = document.getElementById("Doc_2");
+	               var Doc_3 = document.getElementById("Doc_3");
+	               var Doc_4 = document.getElementById("Doc_4");
+	               var Doc_5 = document.getElementById("Doc_5");
+	                   if (Doc_3.style.display === "none") {
+	                       Doc_3.style.display = "block";
+	                       
+	                       Doc_1.style.display = "none";
+	                       Doc_2.style.display = "none";
+	                       Doc_4.style.display = "none";
+	                       Doc_5.style.display = "none";
+	                   } else {
+	Doc_3.style.display = "none";
+	                           }
+	           }
+	           
+	           function Doc_4_View() {
+	               var Doc_1 = document.getElementById("Doc_1");
+	               var Doc_2 = document.getElementById("Doc_2");
+	               var Doc_3 = document.getElementById("Doc_3");
+	               var Doc_4 = document.getElementById("Doc_4");
+	               var Doc_5 = document.getElementById("Doc_5");
+	                   if (Doc_4.style.display === "none") {
+	                       Doc_4.style.display = "block";
+	                       
+	                       Doc_1.style.display = "none";
+	                       Doc_2.style.display = "none";
+	                       Doc_3.style.display = "none";
+	                       Doc_5.style.display = "none";
+	                   } else {
+	Doc_4.style.display = "none";
+	                           }
+	           }   
+	           
+	           function Doc_5_View() {
+	               var Doc_1 = document.getElementById("Doc_1");
+	               var Doc_2 = document.getElementById("Doc_2");
+	               var Doc_3 = document.getElementById("Doc_3");
+	               var Doc_4 = document.getElementById("Doc_4");
+	               var Doc_5 = document.getElementById("Doc_5");
+	                   if (Doc_5.style.display === "none") {
+	                       Doc_5.style.display = "block";
+	                       
+	                       Doc_1.style.display = "none";
+	                       Doc_2.style.display = "none";
+	                       Doc_3.style.display = "none";
+	                       Doc_4.style.display = "none";
+	                   } else {
+	Doc_5.style.display = "none";
+	                           }
+	           }   
+	</script>
+</body>
+</html>
