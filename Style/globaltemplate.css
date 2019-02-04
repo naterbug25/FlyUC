@@ -423,6 +423,8 @@ iframe.map {
 	.Scroll_Img {
 		display: none;
 	}
+	.T_Scroll_Img {
+	}
 	img.MobileMenu {
 		height: 7vh;
 		-webkit-transition-duration: .3s;
