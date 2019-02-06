@@ -101,13 +101,13 @@
  
              <!-- Linked to google drive docs -->  
 			<div>
-				<iframe class="doc_page" id="Doc_1" name="Doc_1" src="https://docs.google.com/document/d/e/1yGwEO4-JYvjJXQnC6pLyTEccVr08vzmE/pub?embedded=true" style="Display: none;"></iframe>
+				<iframe class="doc_page" id="Doc_1" name="Doc_1" src="https://docs.google.com/document/d/e/2PACX-1vRtfNWgWBDYkNpXVjV5fwCF7Yj417rfV1hkJLR9rBR6aHKXSScMXAZ8Up8lNO2e18Uhes2ESVPSYu_C/pub?embedded=true" style="Display: none;"></iframe>
 				<iframe class="doc_page" id="Doc_2" name="Doc_2" src="https://docs.google.com/document/d/e/2PACX-1vRaHhFZ0_I2GYb9NUfo2CACJGt6dg1ec7ynl215v9nL8PnMyKsED4-RZipK2zfg9uc6eE5xMyvk-3_4/pub?embedded=true" style="Display: none;"></iframe>
-				<iframe class="doc_page" id="Doc_3" name="Doc_3" src="https://drive.google.com/file/d/1Ue_vUtkchSfIf5z2iK1lyY71F6__pJFi/preview" style="Display: none;"></iframe>
-				<iframe class="doc_page" id="Doc_3" name="Doc_3" src="https://docs.google.com/document/d/e/1M1eR2naKz_8fb2wLto16vyQ_ZNNEKEPIONI2kfZEIzI/pub?embedded=true" style="Display: none;"></iframe>
-				<iframe class="doc_page" id="Doc_4" name="Doc_4" src="https://drive.google.com/file/d/1BjOJL2ROgOkSCoHKFMwgDVLOl-pGSJRE/preview" style="Display: none;"></iframe>
+				<iframe class="doc_page" id="Vid_3" name="Vid_3" src="https://drive.google.com/file/d/1Ue_vUtkchSfIf5z2iK1lyY71F6__pJFi/preview" style="Display: none;"></iframe>
+				<iframe class="doc_page" id="Doc_3" name="Doc_3" src="https://docs.google.com/document/d/e/2PACX-1vR2ZT0zduNHsWapMHe2Je_EsJ3HyTSCTtJ21ZfkHbTlGZLWXUuM90INt_PCJhKnjqs-FhAFHUmysA0g/pub?embedded=true" style="Display: none;"></iframe>
+				<iframe class="doc_page" id="Vid_4" name="Vid_4" src="https://drive.google.com/file/d/1BjOJL2ROgOkSCoHKFMwgDVLOl-pGSJRE/preview" style="Display: none;"></iframe>
 				<iframe class="doc_page" id="Doc_4" name="Doc_4" src="https://docs.google.com/document/d/e/2PACX-1vSeSs6LuJFBNtBdQEYcbf7qVOQa_NvHRyeuG7DTsHTrqabmaWLr7mGsWRZ83loUGQUR1JPq4fh1_P3H/pub?embedded=true" style="Display: none;"></iframe>
-				<iframe class="doc_page" id="Doc_5" name="Doc_5" src="https://drive.google.com/file/d/1yb3nOyyqdAwVoFcfAY9XDhwWqTyo-d4L/preview" style="Display: none;"></iframe>
+				<iframe class="doc_page" id="Vid_5" name="Vid_5" src="https://drive.google.com/file/d/1yb3nOyyqdAwVoFcfAY9XDhwWqTyo-d4L/preview" style="Display: none;"></iframe>
 				<iframe class="doc_page" id="Doc_5" name="Doc_5" src="https://docs.google.com/document/d/e/2PACX-1vR2ZT0zduNHsWapMHe2Je_EsJ3HyTSCTtJ21ZfkHbTlGZLWXUuM90INt_PCJhKnjqs-FhAFHUmysA0g/pub?embedded=true" style="Display: none;"></iframe>
 
 				
@@ -143,6 +143,11 @@
 	               var Doc_3 = document.getElementById("Doc_3");
 	               var Doc_4 = document.getElementById("Doc_4");
 	               var Doc_5 = document.getElementById("Doc_5");
+
+	               var Vid_3 = document.getElementById("Vid_3");
+	               var Vid_4 = document.getElementById("Vid_4");
+	               var Vid_5 = document.getElementById("Vid_5");
+				   
 	                   if (Doc_1.style.display === "none") {
 	                       Doc_1.style.display = "block";
 	                       
@@ -150,6 +155,10 @@
 	                       Doc_3.style.display = "none";
 	                       Doc_4.style.display = "none";
 	                       Doc_5.style.display = "none";
+						   
+						   Vid_3.style.display = "none";
+	                       Vid_4.style.display = "none";
+	                       Vid_5.style.display = "none";
 	                       
 	                   } else {
 	                       Doc_1.style.display = "none";
@@ -161,6 +170,10 @@
 	               var Doc_3 = document.getElementById("Doc_3");
 	               var Doc_4 = document.getElementById("Doc_4");
 	               var Doc_5 = document.getElementById("Doc_5");
+				   
+				   var Vid_3 = document.getElementById("Vid_3");
+	               var Vid_4 = document.getElementById("Vid_4");
+	               var Vid_5 = document.getElementById("Vid_5");
 	                   if (Doc_2.style.display === "none") {
 	                       Doc_2.style.display = "block";
 	                       
@@ -168,6 +181,10 @@
 	                       Doc_3.style.display = "none";
 	                       Doc_4.style.display = "none";
 	                       Doc_5.style.display = "none";
+						   
+						   Vid_3.style.display = "none";
+	                       Vid_4.style.display = "none";
+	                       Vid_5.style.display = "none";
 	                   } else {
 	                       Doc_2.style.display = "none";
 	                           }
@@ -179,15 +196,24 @@
 	               var Doc_3 = document.getElementById("Doc_3");
 	               var Doc_4 = document.getElementById("Doc_4");
 	               var Doc_5 = document.getElementById("Doc_5");
+				   
+				   var Vid_3 = document.getElementById("Vid_3");
+	               var Vid_4 = document.getElementById("Vid_4");
+	               var Vid_5 = document.getElementById("Vid_5");
 	                   if (Doc_3.style.display === "none") {
 	                       Doc_3.style.display = "block";
-	                       
+	                       Vid_3.style.display = "block";
+						   
 	                       Doc_1.style.display = "none";
 	                       Doc_2.style.display = "none";
 	                       Doc_4.style.display = "none";
 	                       Doc_5.style.display = "none";
+						   
+	                       Vid_4.style.display = "none";
+	                       Vid_5.style.display = "none";
 	                   } else {
 	Doc_3.style.display = "none";
+	 Vid_3.style.display = "none";
 	                           }
 	           }
 	           
@@ -197,15 +223,25 @@
 	               var Doc_3 = document.getElementById("Doc_3");
 	               var Doc_4 = document.getElementById("Doc_4");
 	               var Doc_5 = document.getElementById("Doc_5");
+				   
+	               var Vid_3 = document.getElementById("Vid_3");
+	               var Vid_4 = document.getElementById("Vid_4");
+	               var Vid_5 = document.getElementById("Vid_5"); 
 	                   if (Doc_4.style.display === "none") {
 	                       Doc_4.style.display = "block";
-	                       
+	                       Vid_4.style.display = "block";
+						   
 	                       Doc_1.style.display = "none";
 	                       Doc_2.style.display = "none";
 	                       Doc_3.style.display = "none";
 	                       Doc_5.style.display = "none";
+						   
+						   Vid_3.style.display = "none";
+
+	                       Vid_5.style.display = "none";
 	                   } else {
 	Doc_4.style.display = "none";
+	Vid_4.style.display = "none";
 	                           }
 	           }   
 	           
@@ -215,15 +251,26 @@
 	               var Doc_3 = document.getElementById("Doc_3");
 	               var Doc_4 = document.getElementById("Doc_4");
 	               var Doc_5 = document.getElementById("Doc_5");
+				   
+
+				   var Vid_3 = document.getElementById("Vid_3");
+	               var Vid_4 = document.getElementById("Vid_4");
+	               var Vid_5 = document.getElementById("Vid_5");
 	                   if (Doc_5.style.display === "none") {
 	                       Doc_5.style.display = "block";
+						   Vid_5.style.display = "block";
 	                       
 	                       Doc_1.style.display = "none";
 	                       Doc_2.style.display = "none";
 	                       Doc_3.style.display = "none";
 	                       Doc_4.style.display = "none";
+						   
+						   Vid_3.style.display = "none";
+	                       Vid_4.style.display = "none";
+
 	                   } else {
 	Doc_5.style.display = "none";
+	Vid_5.style.display = "none";
 	                           }
 	           }   
 	           
