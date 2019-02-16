@@ -30,7 +30,7 @@ body {
 }
 
 .bg {
-	background-image: url("https://naterbug25.github.io/FlyUC/Images/BG.jpg");
+	background-image: url("https://naterbug25.github.io/FlyUC/Images/BG1.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -105,7 +105,7 @@ img.Main_Links {
 header {
 	min-height: 3vh;
 	color: white;
-	background-color: grey;
+	background-color: #CCCCCC;
 	clear: left;
 	text-align: center;
 	padding: 1px;
