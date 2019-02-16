@@ -24,13 +24,13 @@
 
 html,
 body {
+	color: grey;
 	overflow-x: hidden;
 	height: 100%;
 }
 
 .bg {
-	/*background-image: url("https://naterbug25.github.io/FlyUC/Images/BG.jpg");*/
-	background-color: grey;
+	background-image: url("https://naterbug25.github.io/FlyUC/Images/BG.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
