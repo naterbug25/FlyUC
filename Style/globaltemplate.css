@@ -31,7 +31,7 @@ body {
 
 .bg {
 	/*background-image: url("https://naterbug25.github.io/FlyUC/Images/BG1.jpg");*/
-	background-color: grey;
+	background: grey;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
