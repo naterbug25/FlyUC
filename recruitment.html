@@ -2,32 +2,40 @@
 <html>
    <html lang="en">
    	<head>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-.parallax {
-  /* The image used */
-  background-image: url("Header.jpg");
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+		body, html {
+		  height: 100%;
+		}
 
-  /* Set a specific height */
-  min-height: 500px; 
+		.parallax {
+		  /* The image used */
+		  background-image: url('img_parallax.jpg');
 
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-</style>
-</head>
-<body>
+		  /* Full height */
+		  height: 100%; 
 
-<h2>Want to be part of the change? Click on this link!</h2>
+		  /* Create the parallax scrolling effect */
+		  background-attachment: fixed;
+		  background-position: center;
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		}
+		</style>
+	</head>
+	<body>
 
-<div class="parallax"></div>
+		<div class="parallax"></div>
 
-<div style="height:1000px;background-color:red;font-size:36px">
-History of FlyUC: insert cool bio and info about the accomplishments and progress of FlyUC
-</div>
+		<div style="height:1000px;background-color:red;font-size:36px">
+		Scroll Up and Down this page to see the parallax scrolling effect.
+		This div is just here to enable scrolling.
+		Tip: Try to remove the background-attachment property to remove the scrolling effect.
+		</div>
+
+		<div class="parallax"></div>
+
+	</body>
 
 </body>
 </html>
