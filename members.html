@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="https://naterbug25.github.io/FlyUC/Style/globaltemplate.css">
+<style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+  background-color: dimgrey;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: white;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+</style>
+</head>
+<body>
+<div class="bg">
+<h3>Meet The Team</h3>
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team1.jpg" alt="Nathan Picture" style="width:50%">
+      <div class="container">
+        <h2>Nathan Huber</h2>
+        <p class="title">Electronics Lead</p>
+        <p>About him.</p>
+        <p>example@example.com</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team2.jpg" alt="Austin Picture" style="width:50%">
+      <div class="container">
+        <h2>Austin Kucinski</h2>
+        <p class="title">Electronics Lead</p>
+        <p>About him.</p>
+        <p>example@example.com</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="KeerthiTest.jpg" alt="Keerthi Picture" style="width:50%">
+      <div class="container">
+        <h2>Keerthi Sekar</h2>
+        <p class="title">Member</p>
+        <p>Keerthi is a first year in Computer Engineering with an avid interesting in Robotics.
+        Keerthi manages the website and works on the safety implementations in the electronics perspective. </p>
+        <p>sekarku@mail.uc.edu</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team1.jpg" alt="Member Picture" style="width:50%">
+      <div class="container">
+        <h2>Member</h2>
+        <p class="title">Member</p>
+        <p>About him.</p>
+        <p>example@example.com</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team2.jpg" alt="Member Picture" style="width:50%">
+      <div class="container">
+        <h2>Member</h2>
+        <p class="title">Member</p>
+        <p>About him.</p>
+        <p>example@example.com</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team2.jpg" alt="Member Picture" style="width:50%" align="center">
+      <div class="container">
+        <h2>Member</h2>
+        <p class="title">Member</p>
+        <p>About member.</p>
+        <p>example@example.com</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+</body>
+</html>
